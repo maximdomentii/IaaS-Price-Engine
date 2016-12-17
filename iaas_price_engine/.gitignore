@@ -21,4 +21,5 @@
 .byebug_history
 
 # Ignore .idea folder
-../.idea/
+../.idea/*
+.idea/*
