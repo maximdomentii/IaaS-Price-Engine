@@ -1,0 +1,2 @@
+# IaaS-Price-Engine
+The project is a web service which refund the price of renting a virtual instances from at least three cloud providers (ex .: Amazon, Google, Rackspace, etc.) over a period of time. The web service will receive as parameters characteristics (frequency CPU, RAM capacity, capacity HDD, Operating System), time period and the number of virtual machines and will return the rental price of these resources.
