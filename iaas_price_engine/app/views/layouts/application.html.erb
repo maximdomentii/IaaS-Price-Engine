@@ -9,6 +9,22 @@
   </head>
 
   <body>
-    <%= yield %>
+  <div class="header">
+    <%= render 'layouts/header' %>
+  </div>
+  <div class="content">
+    <div class="container">
+      <div class="row content-min-height shadow">
+        <div class="col-md-12">
+          <p class="success"><%= flash[:success] %></p>
+          <p class="error"><%= flash[:danger] %></p>
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <%= render 'layouts/footer' %>
+  </div>
   </body>
 </html>
